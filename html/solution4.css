@@ -1,0 +1,31 @@
+body {
+    background-color: #bfeeff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: darkslateblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+div.hobbies {
+    color: brown;
+    font-size: 20px;
+    text-shadow: 2px 1px floralwhite;
+}
+
+li {
+    font-style: italic;
+    font-weight: bold;
+}
+
+table {
+    background: cornflowerblue;
+    color: white;
+}
+
+iframe {
+    border: 2px dotted blue;
+    background-color: white;
+}

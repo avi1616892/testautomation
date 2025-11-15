@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>forms page</title>
+    </head>
+
+    <body>
+        <center>
+            <h1>My Cool Form</h1>
+            <form method="get">
+                <table>
+                    <tr>
+                        <td>
+                            First name:
+                        </td>
+                        <td>
+                            <input type="text" name="firstname" placeholder="Insert First Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Last name:
+                        </td>
+                        <td>
+                            <input type="text" name="lastname" placeholder="Insert Last Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gender:
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="male" checked> Male
+                            <input type="radio" name="gender" value="female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Country:
+                        </td>
+                        <td>
+                            <Select name="country">
+                                <option value="England">England</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="India">India</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Israel">Israel</option>
+                            </Select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            My Color:
+                        </td>
+                        <td>
+                            <input type="checkbox" id="color_red" name="color_red" value="red"> Red
+                            <input type="checkbox" id="color_green" name="color_red" value="green"> Green
+                            <input type="checkbox" id="color_blue" name="color_red" value="blue"> Blue
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Description:
+                        </td>
+                        <td>
+                            <textarea name="description" rows="5" cols="15" placeholder="Insert Text Here"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <button name="submit" value="Send Me">Send Form</button>
+            </form>
+        </center>
+    </body>
+</html>
