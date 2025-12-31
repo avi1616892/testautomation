@@ -1,6 +1,6 @@
 #String
 
-c= "Avi works at \"bank hapoalim\" "
+c= "Yosi works at \"bank hapoalim\" "
 print(c)
 
 print("------------------")
@@ -24,7 +24,7 @@ print(greeting + " red ")
 print(greeting[::2])
 
 print("------------------")
-name ="Avi"
+name ="David"
 location = "Tel-Aviv"
 
 output="Hello my name is: " + name + " and i live in " + location
@@ -35,6 +35,6 @@ print(output)
 
 
 print("------------------")
-print("Yoni ", end='')
-print("Flenner ", end='')
+print("Alex ", end='')
+print("Levy ", end='')
 print(11)

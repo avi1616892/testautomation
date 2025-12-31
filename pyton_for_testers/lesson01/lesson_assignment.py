@@ -1,8 +1,8 @@
 # solution 01
 
-first_name="Avi"
-last_name = "Gavrilov"
-age=27
+first_name="David"
+last_name = "Cohen"
+age=33
 
 age = str(age)
 print(first_name.upper())
@@ -28,8 +28,8 @@ print(y.split()[-1])
 
 # solution 01 variables
 print("------------------")
-first_name = "Yoni"
-last_name = "Flenner"
+first_name = "Yosi"
+last_name = "Cohen"
 age = 11
 
 print(first_name)
